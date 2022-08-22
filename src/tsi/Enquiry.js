@@ -23,7 +23,7 @@ const Enquiry = () => {
        <section class="contact" style={{ backgroundColor: "#CDF0EA" }}>
         <div class="container">
           <h1 class="section-heading">TSI Hotel Room Booking Form</h1>
-          <form action="http://localhost:5000/enquiry" method="post">
+          <form action="https://tsi-backend.vercel.app/enquiry" method="post">
             <div class="input-wrap">
               <label>First Name</label>
               <label>Last Name</label>
