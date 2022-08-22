@@ -1,0 +1,13 @@
+.App {
+    color: "#607d8b";
+    font-family: "Pacifico", cursive;
+    text-align: center;
+  }
+  
+  body {
+    color: "#607d8b";
+    font-family: "Pacifico", cursive;
+    background-image: url("https://images.pexels.com/photos/1092364/pexels-photo-1092364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #cccccc;
+  }
+  

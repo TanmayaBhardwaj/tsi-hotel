@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.image-section img {
+
+    width: 125%;
+    height: auto;
+}
+.image-section img:hover {
+    filter: opacity(90%);
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3 {
+    margin-top: 10px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+
+.content-section .content p ul {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(114, 112, 112);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section {
+        float: none;
+        width: 100%;
+
+    }
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .content-section .title {
+        text-align: center;
+        font-size: 19px;
+    }
+    .title2 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* blockquote styling */
+/* 
+blockquote {
+  display: block;
+  position: relative;
+  width: 65%;
+  margin: 3rem auto;
+  padding: .5rem;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Times', serif;
+  color: rgb(114, 112, 112);;
+}
+
+blockquote::before {
+  content: '\201c'; 
+  top: 10px;
+  left: -45px;
+}
+
+blockquote::after {
+  content: '\201d';
+  bottom: -40px;
+}
+
+blockquote::before,
+blockquote::after {
+  font-size: 5.2em;
+  position: absolute;
+}
+
+blockquote cite {
+  display: block;
+  position: absolute;
+  font-size: 1.2rem;
+  font-style: normal;  
+  line-height: 1.2;
+  color: rgb(41, 38, 38);  
+  top: 120%;
+  padding-left: 70px;
+}
+
+
+
+
+blockquote cite::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain; 
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+blockquote cite img {
+    height: 100px;
+    width: auto;
+} */
