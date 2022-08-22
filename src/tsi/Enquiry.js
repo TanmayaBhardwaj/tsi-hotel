@@ -69,9 +69,10 @@ const Enquiry = () => {
               ></textarea>
             </div>
             <div class="btn-wrapper" style={{marginTop:"50px"}}>
-                <Link to="/thanku"><button class="btn btn-primary" onClick={submit}>
+            
+                <button class="btn btn-primary" onClick={submit}>
                 Submit Form
-              </button></Link>
+              </button>
               
             </div>
           </form>

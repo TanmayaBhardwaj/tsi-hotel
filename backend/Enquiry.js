@@ -62,9 +62,9 @@ exports.Enquiry = (req, res) => {
   message
     .save()
     .then(() => {
-      res.status(201).json({ message: "message sent successfully" });
+      res.status(201).send("<img src='https://media.istockphoto.com/vectors/thank-you-for-visiting-us-quote-vector-id1298236426?k=20&m=1298236426&s=170667a&w=0&h=bBt4_TSAVgiicfeFXiyMW-aTlijsf64hghQXkwXb3sM='/>");
     })
     .catch((err) => {
-      res.status(501).json({ message: err });
+      res.status(501).send("<img src='https://media.istockphoto.com/vectors/thank-you-for-visiting-us-quote-vector-id1298236426?k=20&m=1298236426&s=170667a&w=0&h=bBt4_TSAVgiicfeFXiyMW-aTlijsf64hghQXkwXb3sM='/>");
     });
 };
